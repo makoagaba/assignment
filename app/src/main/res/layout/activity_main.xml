@@ -44,5 +44,13 @@
         app:layout_constraintStart_toEndOf="@+id/message"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="73dp"
+        android:text="@string/Welcome"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="335dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

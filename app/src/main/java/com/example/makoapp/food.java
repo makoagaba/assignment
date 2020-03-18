@@ -22,7 +22,7 @@ public class food extends AppCompatActivity {
         {
             try {
                 files = assetManager.open("mako.c");
-            } catch (IOException e) {
+            } catch (IOException e) { 
                 e.printStackTrace();
             }
             textView.setText((CharSequence) files);

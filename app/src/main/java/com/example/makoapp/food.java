@@ -18,7 +18,7 @@ public class food extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.textView3);
         AssetManager assetManager = getAssets();
-        InputStream files;
+        InputStream files = null;
         {
             try {
                 files = assetManager.open("mako.c");
